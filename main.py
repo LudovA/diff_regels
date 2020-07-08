@@ -24,7 +24,9 @@ question_types_ordered = ['enkel_nat_macht',
                           'quotient_regel_macht',
                           'quotient_regel_ketting']
 init_prob_dist = np.zeros(len(question_types_ordered))  # non-normalized prob_dist
-init_prob_dist[:3] = 100
+init_prob_dist[0] = 300
+init_prob_dist[1] = 200
+init_prob_dist[2] = 100
 
 
 # %% Main
